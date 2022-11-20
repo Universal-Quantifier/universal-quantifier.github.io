@@ -73,7 +73,7 @@ Now a table:
 
 ## Images
 
-![theme logo](https://www.blender.org/wp-content/uploads/2015/03/blender_logo_socket-1-1280x391.png){:.ioda}
+![theme logo](../favicon.png){:.ioda}
 
 Logo of *no style, please!* theme[^4]
 
