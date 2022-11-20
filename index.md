@@ -1,1 +1,4 @@
-# 欢迎来到我的世界
+---
+layout: home
+---
+[关于我](/about.html)

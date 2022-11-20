@@ -1,0 +1,26 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    {%- if page.title -%}
+      {{ page.title }}
+    {%- else -%}
+      {{ site.title }}
+    {%- endif -%}
+  </title>
+
+  {%-seo title=false-%}
+  {%-feed_meta-%}
+
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}" />
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+  {%- if page.math -%}
+      {%- include math.html -%}
+  {%- endif -%}
+  {%- if page.code_style -%}
+      {%- assign file_name = page.code_style | append: ".css" -%}
+      <link rel="stylesheet" href="{{ "/assets/css/rougeThemes/" | append: file_name | relative_url }}" />
+  {%- endif -%}
+</head>
