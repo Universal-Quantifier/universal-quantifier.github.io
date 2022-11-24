@@ -1,5 +1,6 @@
 ---
 lang: en
+locale: en_US
 layout: post
 code_style: github
 math: true
